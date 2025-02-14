@@ -24,6 +24,7 @@ System.out.println(msg);*/
 
        List<HondaBike> list=service.getallBikes();
        list.forEach(System.out::print);
+       System.out.println("-------Executing For Loop-----------");
         System.out.println("------------------------------");
        list.forEach(b->{
            System.out.println(b);
