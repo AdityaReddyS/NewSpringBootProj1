@@ -10,6 +10,7 @@ public class SpringBootProj1Application {
 
 		SpringApplication.run(SpringBootProj1Application.class, args);
 		System.out.println("Welcome to spring bootIntellij IDE");
+		System.out.println("Allugubelli Shankar Reddy");
 	}
 
 }
