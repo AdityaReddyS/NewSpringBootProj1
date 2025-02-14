@@ -12,12 +12,15 @@ import java.util.List;
 public class TestRunner  implements CommandLineRunner {
     @Autowired
     private HondaBikeService service;
+
     @Override
     public void run(String... args) throws Exception {
 /*String msg=service.savetheBike(new HondaBike("Glamour Pro","110cc","Nalgonda"));
 System.out.println(msg);*/
      /*  service.getallBikes().forEach(System.out::print);
         System.out.println("------------------------------");*/
+
+        //System.out.println(newTestclass.Test());
         String msg=service.getById(102);
         System.out.println(msg);
         System.out.println("-------Execution---------");
