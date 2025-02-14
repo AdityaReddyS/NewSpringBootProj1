@@ -20,7 +20,7 @@ System.out.println(msg);*/
         System.out.println("------------------------------");*/
         String msg=service.getById(102);
         System.out.println(msg);
-        System.out.println("-------Execution---------")
+        System.out.println("-------Execution---------");
 
        List<HondaBike> list=service.getallBikes();
        list.forEach(System.out::print);
